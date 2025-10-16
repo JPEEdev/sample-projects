@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:100vh */
+    border: 2px solid red;
+    /* background: #000; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-box {
+    /* width: 200px; Sets the width of the box */
+    /* height: 100px; Sets the height of the box */
+    background-color: lightblue; /* Sets the background color of the box */
+    border: 2px solid blue; /* Adds a 2px solid blue border */
+    /* padding: 15px; Adds 15px of padding inside the box */
+    margin: 20px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
